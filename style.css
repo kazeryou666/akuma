@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(250, 185, 100);
+    font-family: sans-serif;
+}
+header,nav,section,#bio-container{
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-bottom: 2px solid rgb(24, 21, 21);
+}
+
+header img {
+    width: 190px;
+    float: left;
+    margin-left: 20px;
+}
+
+header h1 {
+    font-weight: normal;
+    font-size: 40px;
+    float: left;
+    margin-top: 19px;
+    margin-left: 23px;
+    font-style:bold;
+}
+
+
+   
+
+.fixed-element{
+    clear:both;
+}
+
+nav ul li{
+    color: rgb(36, 83, 236);
+    display: inline;
+    margin-left: 30px;
+    list-style: none;
+    font-style: oblique;
+}
+
+#right-top-menu{
+    float: left;
+}
+
+#right-top-menu{
+    float: right;
+    margin-top: -19px;
+}
+nav{
+    padding: 20px 0;
+}
+.last-menu{
+  margin-right: 40px;  
+}
+
+section h2{
+    text-align: center;
+    font-size: 29px;
+    padding: 28px 0;
+}
+
+section article{
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+}
+
+section article p{
+    text-align: justify;
+}
+
+section img{
+    width: 300px;
+}
+section article button{
+    display: block;
+    margin: auto;
+    margin: 20px auto;
+}
+#bio-container img{
+    margin-left: 20px;
+}
+#bio-info{
+    width: 600px;
+    float: right;
+    margin-left: 10px;
+    
+}
+
+#bio-info h3{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+
+}
+#bio-info p {
+    text-align: justify; 
+    margin-right: 20px;
+}
+,
+#bio-info .text-right{
+text-align: right;
+margin-right: 20px;
+}
+#bio-info ul{
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
